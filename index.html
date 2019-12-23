@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>The New York Times</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!--Page wrapper-->
@@ -13,9 +14,9 @@
     <!--Navigation-->
     <nav>
       <div>
-        <button></button>
-        <button type="search"></button>
-        <a href=""> SPACE & COSMOS</a>
+        <button><i class="fa fa-navicon"></i></button>
+        <button type="search"><i class="fa fa-search"></i></button>
+        <a href="#">SPACE & COSMOS</a>
       </div>
       <div>
         <h1>The New York Times</h1>
@@ -34,9 +35,9 @@
       </div>
 
       <section>
-        <header>Space Ripples Reveal Big Bang’s Smoking Gun</header>
+        <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
         <figure>
-          <img src="" alt="" />
+          <img alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago." src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=75&amp;auto=webp&amp;disable=upscale">
           <figcaption>
             Alan Guth was one of the first physicists to hypothesize the
             existence of inflation, which explains how the universe expanded so
@@ -44,16 +45,25 @@
             billion years ago. <span>Rick Friedman for The New York Times</span>
           </figcaption>
         </figure>
-        <header>
-          <h5>By Dennis Overbye</h5>
-          <time>March 17, 2014</time>
-          <div>
-            <ul></ul>
-            <button></button>
-            <button></button>
-          </div>
-        </header>
-        <aside></aside>
+        <h5>By <a href="#">Dennis Overbye</a></h5>
+        <div>
+            <time>March 17, 2014</time>
+            <div>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fa fa-share"></i></a></li>
+                </ul>
+                <button><i class="fa fa-bookmark-o"></i></button>
+                <button><i class="fa fa-comment-o"></i></button>
+            </div>
+        </div>
+        <aside>
+            <h5>Sign up for Science Times</h5>
+            <p>We’ll bring you stories that capture the wonders of the human body, nature and the cosmos.</p>
+            <a href="#">SIGN UP</a>
+        </aside>
         <p>
           CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
           physicist named Alan Guth, with a new son and a year’s appointment at
@@ -85,7 +95,28 @@
       <div class="advert"></div>
 
       <section>
-        <aside></aside>
+        <aside>
+            <h5>Editor's Picks</h5>
+            <div>
+                <img src="" alt="">
+                <p><a href="#">Eddie Murphy Returns to ‘Saturday Night Live’</a></p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p><a href="#">What You’re Unwrapping When You Get a DNA Test for Christmas</a></p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <p><a href="#">Inside Wayne LaPierre’s Battle for the N.R.A.</a></p>
+            </div>
+            <div>
+                <img src="" alt="">
+                <a href="#">
+                    <h6>PAID POST: Singapore Airlines</h6>
+                    <p>Portrait of an Icon: Meet the Faces of Singapore Airlines</p>
+                </a>
+            </div>
+        </aside>
 
         <p>
           On Monday, Dr. Guth’s starship came in. Radio astronomers reported
@@ -105,7 +136,7 @@
         </p>
 
         <div>
-          <p>Unlock more free articles. Create an account or log in</p>
+          <p>Unlock more free articles.<br><a href="#">Create an account or log in</a></p>
         </div>
 
         <p>
@@ -140,21 +171,24 @@
         <p>The ripples manifested themselves as faint spiral patterns in a bath of microwave radiation that permeates space and preserves a picture of the universe when it was 380,000 years old and as hot as the surface of the sun.</p>
         <p>Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.</p>
 
-        <h3>The Theory of Inflation</h3>
-        <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
         <div>
-            <img src="" alt="" />
+            <h4>The Theory of Inflation</h4>
+            <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
+
+            <img src="https://static01.nyt.com/newsgraphics/2014/03/18/theory-of-inflation/1ebaa1b972edda0f407fbaa0e010f6b50fb6792e/inflation-945.png" alt="The theory of inflation">
+
             <p><span>THE UNIVERSE</span>  is just under 14 billion years old. From our position in the Milky Way galaxy, we can observe a sphere that is now about 92 billion light-years across. But there's a mystery. Wherever we look, the universe has an even temperature.</p>
             <p><span>NOT ENOUGH TIME</span>  The universe is not old enough for light to have traveled the vast distance from one side of the universe to the other, and there has not been enough time for scattered patches of hot and cold to mix into an even temperature.</p>
             <p><span>DISTANT COFFEE</span>  At a smaller scale, imagine using a telescope to look a mile in one direction. You see a coffee cup, and from the amount of steam, you can estimate its temperature and how much it has cooled.</p>
             <p><span>COFFEE EVERYWHERE</span>  Now turn around and look a mile in the other direction. You see a similar coffee cup, at exactly the same temperature. Coincidence? Maybe. But if you see a similar cup in every direction, you might want to look for another explanation.</p>
-            <p><span>STILL NOT ENOUGH TIME </span> There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature</p>
+            <p><span>STILL NOT ENOUGH TIME</span> There has not been enough time to carry coffee cups from place to place before they get cold. But if all the coffee cups were somehow filled from a single coffee pot, all at the same time, that might explain their even temperature</p>
             <p><span>INFLATION</span>  solves this problem. The theory proposes that, less than a trillionth of a second after the Big Bang, the universe expanded faster than the speed of light. Tiny ripples in the violently expanding energy field eventually grew into the large-scale structures of the universe.</p>
             <p><span>FLUCTUATION</span>  Astronomers have now detected evidence of these ancient fluctuations in swirls of polarized light in the cosmic background radiation, which is energy left over from the early universe. These are gravitational waves predicted by Einstein.</p>
             <p><span>EXPANSION</span>  Returning to our coffee, imagine a single, central pot expanding faster than light and cooling to an even temperature as it expands. That is something like inflation. And the structure of the universe mirrors the froth and foam of the original pot</p>
+
+            <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
         </div>
 
-        <p>By LARRY BUCHANAN and JONATHAN CORUM</p>
         <p>Dr. Kovac said the chance that the results were a fluke was only one in 10 million.</p>
         <p>Dr. Guth, now 67, pronounced himself “bowled over,” saying he had not expected such a definite confirmation in his lifetime.</p>
       </section>
@@ -170,8 +204,8 @@
         <p>Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a href> knocked on his door with a bottle of Champagne </a> to tell him the news.</p>
 
         <figure>
-          <iframe src=""></iframe>
-          <figcaption>Stanford Professor Andrei Linde celebrates physics breakthroughCredit...CreditVideo by StanfordUniversity</figcaption>
+          <iframe width="853" height="480" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough<span class="credits">Video by StanfordUniversity</span></figcaption>
         </figure>
 
         <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
@@ -192,8 +226,8 @@
         <p>“The South Pole is the closest you can get to space and still be on the ground,” Dr. Kovac said. He has been there 23 times, he said, wintering over in 1994. “I’ve been hooked ever since,” he said.</p>
 
         <figure>
-          <img src="" alt="" />
-          figcaption>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth <span> Steffen Richter/Associated Press</span><figcaption>
+          <img alt="The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns &amp;mdash; the signature of a universe being wrenched violently apart at its birth." src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos-2/18cosmos-2-articleLarge.jpg?quality=75&amp;auto=webp&amp;disable=upscale">
+          <figcaption>The Bicep2 telescope, in the foreground, was used to detect the faint spiraling gravity patterns — the signature of a universe being wrenched violently apart at its birth <span>Steffen Richter/Associated Press</span><figcaption>
         </figure>
 
         <p>In 2002, he was part of a team that discovered that the microwave radiation was polarized, meaning the light waves had a slight preference to vibrate in one direction rather than another.</p>
@@ -218,69 +252,135 @@
         <p>We might never know what happened before inflation, at the very beginning, because inflation erases everything that came before it. All the chaos and randomness of the primordial moment are swept away, forever out of our view.</p>
         <p>“If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”</p>
 
-        <p></p>
+        <p>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="#">Order Reprints</a> | <a href="#">Today’s Paper</a> | <a href="#">Subscribe</a></p>
         <div>
-          <button></button>
-          <ul></ul>
+          <button>READ 615 COMMENTS</button>
+          <ul>
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa fa-share"></i></a></li>
+        </ul>
         </div>
       </section>
     </article>
 
     <!--Aside-->
-    <div class="aside-right"></div>
+    <div class="aside-right">
+        <h5>Most Popular</h5>
+        <a href="#">Eddie Murphy Returns to ‘Saturday Night Live’</a>
+        <a href="#">Durham Surprises Even Allies With Statement on F.B.I.’s Trump Case</a>
+        <a href="#">Russia Is a Mess. Why Is Putin Such a Formidable Adversary?</a>
+        <a href="#">How a Poisoning in Bulgaria Exposed Russian Assassins in Europe</a>
+        <a href="#">Laughter and Love, a Gazillion Dates Later</a>
+        <a href="#">Opinion: Freaked Out? 3 Steps to Protect Your Phone</a>
+        <a href="#">What It Took for a Fox News Psychiatrist to Finally Lose His License</a>
+        <a href="#">Boeing Fires C.E.O. Dennis Muilenburg</a>
+        <a href="#">What You’re Unwrapping When You Get a DNA Test for Christmas</a>
+        <a href="#">Inside Wayne LaPierre’s Battle for the N.R.A.</a>
+    </div>
     <div class="aside-left">
-      <h3></h3>
-      <div>
+        <h4><a href="#">More in Space & Cosmos</a></h4>
         <div>
-          <img src="" alt="" />
-          <p></p>
-          <time></time>
+            <div>
+                <a href="#">
+                    <figure>
+                        <img src="" alt=""/>
+                        <figcaption>Event Horizon Telescope, via Associated Press</figcaption>
+                    </figure>
+                    <p>What We Learned in Space and Astronomy News in 2019</p>
+                </a>
+                <time>Dec. 22</time>
+            </div>
+            <div>
+                <a href="#">
+                    <figure>
+                        <img src="" alt=""/>
+                        <figcaption>Aubrey Gemignani/NASA</figcaption>
+                    </figure>
+                    <p>Boeing Starliner Lands in New Mexico After Clock Error Prompts Early Return</p>
+                </a>
+                <time>Dec. 22</time>
+            </div>
+            <div>
+                <a href="">
+                    <figure>
+                        <img src="" alt=""/>
+                        <figcaption></figcaption>
+                    </figure>
+                <h6>PAID POST: AUDEMARS PIGUET</h6>
+                <p>We Travel to Tokyo for a Peek Behind the Scenes of the “Beyond Watchmaking” Show</p>
+                <img src="" alt="">
+                </a>
+                <time></time>
+            </div>
+            <div>
+                <a href="#">
+                    <figure>
+                        <img src="" alt=""/>
+                        <figcaption>Image by Space Telescope Science Institute/NASA, via Associated Press</figcaption>
+                    </figure>
+                    <p>The Interstellar Comet Has Arrived in Time for the Holidays</p>
+                </a>
+                <time>Dec. 7</time>
+            </div>
+            <div>
+                <a href="">
+                    <figure>
+                        <img src="" alt=""/>
+                        <figcaption></figcaption>
+                    </figure>
+                    <p>Where Is Comet Borisov?</p>
+                </a>
+                <time>Dec. 7</time>
+            </div>
+            <div>
+                <a href="">
+                    <figure>
+                        <img src="" alt=""/>
+                        <figcaption>Agence France-Presse — Getty Images</figcaption>
+                    </figure>
+                    <p>A Billion Pixels and the Search for India’s Crashed Moon Lander</p>
+                </a>
+                <time>Dec. 6</time>
+            </div>
         </div>
+        
         <div>
-          <img src="" alt="" />
-          <p></p>
-          <time></time>
+            <h6>Editor's Picks</h6>
+            <div>
+                <div>
+                    <a href="#">
+                        <figure>
+                            <img src="" alt=""/>
+                            <figcaption>Ernie Sisto/The New York Times</figcaption>
+                        </figure>
+                        <p>Beautiful. Violent. American. The N.F.L. at 100.</p>
+                    </a>
+                    <time>Dec. 19</time>
+                </div>
+                <div>
+                    <a href="#">
+                        <figure>
+                            <img src="" alt=""/>
+                            <figcaption>Casey Kelbaugh for The New York Times</figcaption>
+                        </figure>
+                        <p>Mama Cax, an Amputee Model and Disability Activist, Dies at 30</p>
+                    </a>
+                    <time>Dec. 22</time>
+                </div>
+                <div>
+                    <a href="">
+                        <figure>
+                            <img src="" alt=""/>
+                            <figcaption></figcaption>
+                        </figure>
+                    <p>2019 N.F.L. Playoff Picture: Mapping the Paths That Remain for Each Team</p>
+                    </a>
+                    <time>Dec. 21</time>
+                </div>
+            </div>
         </div>
-        <div>
-          <img src="" alt="" />
-          <p></p>
-          <time></time>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p></p>
-          <time></time>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p></p>
-          <time></time>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p></p>
-          <time></time>
-        </div>
-
-        <h3></h3>
-        <div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-            <time></time>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-            <time></time>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-            <time></time>
-          </div>
-        </div>
-      </div>
     </div>
 
     <!--Footer-->
