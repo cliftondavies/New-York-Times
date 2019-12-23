@@ -13,21 +13,22 @@
 
     <!--Navigation-->
     <nav>
-      <div>
+      <div class=top-left>
         <button><i class="fa fa-navicon"></i></button>
         <button type="search"><i class="fa fa-search"></i></button>
         <a href="#">SPACE & COSMOS</a>
       </div>
-      <div>
+      <div class="top-center">
         <h1>The New York Times</h1>
       </div>
-      <div>
+      <div class="top-right">
         <ul>
-          <li>SUBSCRIBE NOW</li>
-          <li>LOG IN</li>
+          <li><a href="#">SUBSCRIBE NOW</a></li>
+          <li><a href="#">LOG IN</a></li>
         </ul>
       </div>
     </nav>
+
     <!--Article-->
     <article>
       <div class="advert">
@@ -36,19 +37,17 @@
 
       <section>
         <h1>Space Ripples Reveal Big Bang’s Smoking Gun</h1>
-        <figure>
+        <figure class="first-image">
           <img alt="Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago." src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-articleLarge.jpg?quality=75&amp;auto=webp&amp;disable=upscale">
-          <figcaption>
-            Alan Guth was one of the first physicists to hypothesize the
+          <figcaption>Alan Guth was one of the first physicists to hypothesize the
             existence of inflation, which explains how the universe expanded so
             uniformly and so quickly in the instant after the Big Bang 13.8
-            billion years ago. <span>Rick Friedman for The New York Times</span>
-          </figcaption>
+            billion years ago.<span class="credit">Rick Friedman for The New York Times</span></figcaption>
         </figure>
         <h5>By <a href="#">Dennis Overbye</a></h5>
-        <div>
+        <div class="date-icons">
             <time>March 17, 2014</time>
-            <div>
+            <div class="icons">
                 <ul>
                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -59,7 +58,7 @@
                 <button><i class="fa fa-comment-o"></i></button>
             </div>
         </div>
-        <aside>
+        <aside class="first-aside">
             <h5>Sign up for Science Times</h5>
             <p>We’ll bring you stories that capture the wonders of the human body, nature and the cosmos.</p>
             <a href="#">SIGN UP</a>
@@ -95,22 +94,22 @@
       <div class="advert"></div>
 
       <section>
-        <aside>
+        <aside class="editors-pick-one">
             <h5>Editor's Picks</h5>
             <div>
-                <img src="" alt="">
+                <img alt="Eddie Murphy" src="https://static01.nyt.com/images/2019/12/22/arts/22snl/22snl-square640-v3.png?quality=75&amp;auto=webp&amp;disable=upscale&amp;width=350">
                 <p><a href="#">Eddie Murphy Returns to ‘Saturday Night Live’</a></p>
             </div>
             <div>
-                <img src="" alt="">
+                <img alt="Christmas Presents" src="https://static01.nyt.com/images/2019/12/17/multimedia/00xp-holidaydna/00xp-holidaydna-square640.jpg?quality=75&amp;auto=webp&amp;disable=upscale&amp;width=350">
                 <p><a href="#">What You’re Unwrapping When You Get a DNA Test for Christmas</a></p>
             </div>
             <div>
-                <img src="" alt="">
+              <img alt="Wayne LaPierre" src="https://static01.nyt.com/images/2019/12/22/magazine/22mag-nra-images/22mag-nra-images-square640-v2.jpg?quality=75&amp;auto=webp&amp;disable=upscale&amp;width=350">
                 <p><a href="#">Inside Wayne LaPierre’s Battle for the N.R.A.</a></p>
             </div>
             <div>
-                <img src="" alt="">
+                <img alt="Job Advert" src="https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKDH492D0AEQARgBMggCtYiyy-TscQ">
                 <a href="#">
                     <h6>PAID POST: Singapore Airlines</h6>
                     <p>Portrait of an Icon: Meet the Faces of Singapore Airlines</p>
@@ -135,9 +134,7 @@
           Kovac and his colleagues say, that Dr. Guth was correct.
         </p>
 
-        <div>
-          <p>Unlock more free articles.<br><a href="#">Create an account or log in</a></p>
-        </div>
+        <p id="paragraph">Unlock more free articles.<br><a href="#">Create an account or log in</a></p>
 
         <p>
           Inflation has been the workhorse of cosmology for 35 years, though
@@ -171,7 +168,7 @@
         <p>The ripples manifested themselves as faint spiral patterns in a bath of microwave radiation that permeates space and preserves a picture of the universe when it was 380,000 years old and as hot as the surface of the sun.</p>
         <p>Dr. Kovac and his collaborators, working in an experiment known as Bicep, for Background Imaging of Cosmic Extragalactic Polarization, reported their results in a scientific briefing at the Center for Astrophysics here on Monday and in a set of papers submitted to The Astrophysical Journal.</p>
 
-        <div>
+        <div class="infographic">
             <h4>The Theory of Inflation</h4>
             <p>Astronomers have found evidence to support the theory of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.</p>
 
@@ -201,11 +198,11 @@
         <p>“With nature, you have to be lucky,” he said. “Apparently we have been lucky.”</p>
         <p>The results are the closely guarded distillation of three years’ worth of observations and analysis. Eschewing email for fear of a leak, Dr. Kovac personally delivered drafts of his work to a select few, meeting with Dr. Guth, who is now a professor at Massachusetts Institute of Technology (as is his son, Larry, who was sleeping that night in 1979), in his office last week.</p>
         <p>“It was a very special moment, and one we took very seriously as scientists,” said Dr. Kovac, who chose his words as carefully as he tended his radio telescopes.</p>
-        <p>Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a href> knocked on his door with a bottle of Champagne </a> to tell him the news.</p>
+        <p>Andrei Linde of Stanford, a prolific theorist who first described the most popular variant of inflation, known as chaotic inflation, in 1983, was about to go on vacation in the Caribbean last week when Chao-Lin Kuo, a Stanford colleague and a member of Dr. Kovac’s team, <a href>knocked on his door with a bottle of Champagne</a> to tell him the news.</p>
 
         <figure>
           <iframe width="853" height="480" src="https://www.youtube.com/embed/ZlfIVEy_YOA" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough<span class="credits">Video by StanfordUniversity</span></figcaption>
+          <figcaption>Stanford Professor Andrei Linde celebrates physics breakthrough<span class="credit">Video by StanfordUniversity</span></figcaption>
         </figure>
 
         <p>Confused, Dr. Linde called out to his wife, asking if she had ordered anything.</p>
