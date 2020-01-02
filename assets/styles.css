@@ -132,21 +132,34 @@ table {
 *:after {
   box-sizing: border-box;
 }
+
+/*Top Bar*/
 .page-top {
+  border: 1px solid red;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   background-color: white;
+  padding: 5px 15px;
 }
 .page-top > * {
+  width: 33.33333%;
   float: left;
+  border: 1px solid green;
+}
+.page-top div,
+.page-top > a {
+  padding: 10px 0;
 }
 .page-top > a {
-  margin: 0 30px;
+  /*margin: 0 30px;*/
+  text-align: center;
 }
-.page-top div button {
+.page-top button {
   margin-right: 20px;
+  background-color: transparent;
+  border: none;
 }
 .page-top div button:hover {
   background-color: lightgray;
@@ -154,6 +167,7 @@ table {
 .page-top div a {
   color: black;
   text-decoration: none;
+  font-weight: bold;
 }
 .page-top div a:hover {
   text-decoration: underline;
@@ -162,8 +176,14 @@ table {
 .page-top a {
   cursor: pointer;
 }
+/*.page-top ul {
+  text-align: right;
+}*/
+.page-top li {
+  float: right;
+}
 .page-top li:first-child {
-  margin-right: 10px;
+  margin-left: 5px;
 }
 .page-top li a {
   display: block;
@@ -171,7 +191,13 @@ table {
   color: white;
   border: 1px solid blue;
   border-radius: 1px;
+  padding: 10px;
 }
 .page-top li:hover {
   background-color: blue;
+}
+
+article {
+  border: 5px solid grey;
+  margin-top: 50px;
 }
