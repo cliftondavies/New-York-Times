@@ -271,7 +271,7 @@ h1 {
 
 /*Main Content*/
 .main {
-  width: 700px;
+  width: 600px;
   margin: 40px auto;
 }
 
@@ -321,4 +321,142 @@ h1 {
 
 .main p:first-of-type {
   clear: both;
+}
+
+.main p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+.cosmic a {
+  color: blue;
+}
+
+.main .account {
+  font-size: 18px;
+  text-align: center;
+  padding: 15px 0;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.line {
+  border: 0.5px solid grey;
+  width: 10%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bottom {
+  margin-bottom: 15px;
+}
+
+.main h3 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.infographic {
+  width: 950px;
+  margin: 0 auto;
+}
+.infographic img {
+  width: 100%;
+}
+
+.infographic h4 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.infographic p {
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.knocked {
+  color: blue;
+}
+
+.main figure:first-of-type {
+  margin: 35px 0;
+}
+
+.main iframe {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.main figcaption {
+  font-size: 18px;
+}
+
+.credit {
+  font-size: 15px;
+}
+
+.main + figure {
+  width: 700px;
+  margin: 15px auto;
+}
+
+.main + figure img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.main + figure figcaption {
+  font-size: 16px;
+  width: 95%;
+}
+
+.main .last-para {
+  font-size: 13px;
+}
+
+.last-para a {
+  color: black;
+}
+
+.last-para a:hover {
+  text-decoration: none;
+}
+
+.social {
+  overflow: hidden;
+}
+.social button {
+  float: left;
+  width: 55%;
+  padding: 10px 15px;
+  background-color: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+}
+
+.social ul {
+  float: right;
+  border: 1px solid red;
+  width: 30%;
+}
+
+.social li {
+  float: left;
+  width: 25%;
+}
+
+.social a {
+  padding: 5px;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 100%;
+  border: 1px solid lightgrey;
+}
+
+.social a:hover {
+  background-color: white;
 }
