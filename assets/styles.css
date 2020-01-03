@@ -135,6 +135,7 @@ table {
 
 /*Top Bar*/
 .page-top {
+  text-align: center;
   border: 1px solid red;
   position: fixed;
   top: 0;
@@ -144,8 +145,8 @@ table {
   padding: 5px 15px;
 }
 .page-top > * {
-  width: 33.33333%;
-  float: left;
+  /* width: 33.33333%; */
+  /* float: left; */
   border: 1px solid green;
 }
 .page-top div,
@@ -180,10 +181,16 @@ table {
   text-align: right;
 }*/
 .page-top li {
-  float: right;
+  float: left;
 }
 .page-top li:first-child {
   margin-left: 5px;
+}
+.page-top div:first-child {
+  float: left;
+}
+.page-top div:last-child {
+  float: right;
 }
 .page-top li a {
   display: block;
