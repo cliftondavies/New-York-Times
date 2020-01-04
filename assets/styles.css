@@ -135,7 +135,7 @@ table {
 
 /*------------Top Bar--------------*/
 .page-top {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   position: fixed;
   top: 0;
   left: 0;
@@ -148,7 +148,7 @@ table {
 .page-top > * {
   width: 33.33333%;
   float: left;
-  border: 1px solid green;
+  /* border: 1px solid green; */
 }
 
 .page-top div,
@@ -157,12 +157,16 @@ table {
 }
 
 .page-top > a {
-  /*margin: 0 30px;*/
   text-align: center;
+  height: 40px;
+}
+
+.page-top img {
+  width: 48%;
 }
 
 .page-top button {
-  margin-right: 20px;
+  margin-right: 15px;
   background-color: transparent;
   border: none;
 }
@@ -175,6 +179,7 @@ table {
   color: black;
   text-decoration: none;
   font-weight: bold;
+  font-size: 14px;
 }
 
 .page-top div a:hover {
@@ -186,33 +191,31 @@ table {
   cursor: pointer;
 }
 
-/*.page-top ul {
-  text-align: left;
-}*/
-
-.page-top li {
+.page-top ul {
+  width: auto;
   float: right;
+}
+
+ .page-top li {
+  float: left;
 }
 
 .page-top li:first-child {
-  margin-left: 5px;
+  margin-right: 7px;
 }
-
-/*.page-top div:first-child {
-  float: left;
-}
-.page-top div:last-child {
-  float: right;
-}*/
 
 .page-top li a {
   display: block;
-  background-color: blue;
+  background-color: royalblue;
   color: white;
-  border: 1px solid blue;
-  border-radius: 1px;
-  padding: 10px;
+  border: 1px solid royalblue;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
 }
+
 .page-top li:hover {
   background-color: blue;
 }
@@ -223,7 +226,7 @@ article {
   margin-top: 50px;
 }
 
-/*Advert*/
+/*------Advert-------*/
 .advert {
   height: 300px;
   text-align: center;
@@ -236,7 +239,7 @@ article {
   font-size: 10px;
 }
 
-/*Article Heading*/
+/*------Article Heading-------*/
 h1 {
   width: 700px;
   margin: 0 auto;
@@ -248,7 +251,7 @@ h1 {
   line-height: 1.5;
 }
 
-/*First Image*/
+/*--------First Image----------*/
 .first-image {
   width: 1050px;
   margin: 0 auto;
@@ -269,7 +272,7 @@ h1 {
   color: grey;
 }
 
-/*Main Content*/
+/*--------Main Content----------*/
 .main {
   width: 600px;
   margin: 40px auto;
@@ -282,45 +285,66 @@ h1 {
 
 .main h5 a {
   color: black;
+  text-decoration-color: #ccc;
+}
+
+.main h5 a:hover {
+  text-decoration: none;
 }
 
 .date-social {
   margin: 35px 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  overflow: auto;
+  padding: 8px;
 }
 
 .date-social time {
   float: left;
   font-size: 12px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .date-social div {
   float: right;
-  border: 1px solid green;
+  /* border: 1px solid green; */
   width: 40%;
 }
 
-.date-social ul li,
+.date-social ul {
+  /* border: 5px solid blue; */
+  width: 66.66%;
+}
+
 .date-social button {
+  width: 16.66%;
+}
+
+.date-social ul,
+.date-social button, 
+.date-social li {
   float: left;
-  width: 16%;
+}
+
+.date-social li {
+  width: 25%;
 }
 
 .date-social a {
   color: black;
   background-color: lightgray;
+  border: 1px solid lightgray;
   border-radius: 100%;
   padding: 5px;
+}
+
+.date-social a:hover {
+  background-color: white;
 }
 
 .date-social button {
   border: none;
   background-color: white;
-}
-
-.main p:first-of-type {
-  clear: both;
 }
 
 .main p {
@@ -329,16 +353,97 @@ h1 {
   font-size: 22px;
 }
 
+/*-----First Aside-------*/
+.first-aside {
+  float: right;
+  /* border: 1px solid red; */
+  width: 255px;
+  /* height: 450px; */
+  margin-top: 350px;
+  margin-right: 75px;
+}
+
+.first-aside img {
+  float: left;
+}
+
+.first-aside p,
+.ad {
+  float: right;
+  width: 60%;
+}
+
+.ad p {
+  float: none;
+}
+
+.first-aside img {
+  width: 40%;
+  clear:left;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.first-aside h5 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.first-aside div {
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+.first-aside p {
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 5px;
+}
+
+.ad h6 {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.ad p {
+  font-size: 12px;
+  padding: 0;
+}
+
+.first-aside a {
+  color: black;
+  text-decoration: none;
+}
+
+.first-aside a:hover {
+  text-decoration: underline;
+}
+
+.first-aside div:last-child {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+/*------Main Content-------*/
 .cosmic a {
   color: blue;
 }
 
 .main .account {
-  font-size: 18px;
+  font-size: 15px;
   text-align: center;
-  padding: 15px 0;
-  line-height: 1;
+  padding: 20px 0;
+  line-height: 1.5;
   margin-bottom: 0;
+  font-weight: bold;
+}
+
+.account a {
+  color: blue;
+  text-decoration: none;
 }
 
 .line {
@@ -348,8 +453,12 @@ h1 {
   margin: 0 auto;
 }
 
+.top {
+  margin-top: 25px;
+}
+
 .bottom {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .main h3 {
