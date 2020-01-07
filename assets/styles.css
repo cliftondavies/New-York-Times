@@ -91,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -295,10 +296,10 @@ h1 {
 .date-social {
   margin: 35px 0;
   overflow: auto;
-  padding: 8px;
+  padding: 8px 0;
 }
 
-.date-social time {
+.main .date-social p {
   float: left;
   font-size: 12px;
 }
@@ -602,7 +603,7 @@ h1 {
   background-color: white;
 }
 
-/*----Main Aside----*/
+/*-----Main Aside-----*/
 aside {
   margin: 40px auto;
   width: 1260px;
@@ -681,8 +682,8 @@ aside {
   font-size: 18px;
 }
 
-.more time,
-.editors-pick time {
+.more span,
+.editors-pick span {
   color: lightgrey;
 }
 
@@ -706,10 +707,9 @@ aside {
   color: lightgrey;
 }
 
-/*-----Footer------*/
+/*-----------------Footer-----------*/
 footer {
   clear: both;
-  border: 1px solid red;
 }
 
 .footer {
@@ -721,8 +721,6 @@ footer {
 .footer-first {
   border-top: 1px solid lightgray;
   margin-top: 1.5px;
-  margin-bottom: 20px;
-  border: 1px solid yellow;
   overflow: auto;
 }
 
@@ -738,20 +736,19 @@ footer {
   font-size: 11px;
   display: flex;
   align-items: flex-end;
-  border: 1px solid blue;
   height: 45px;
 }
 
 .footer-second {
   clear: both;
-  border: 1px solid green;
+  padding: 20px 0;
+  overflow: auto;
 }
 
 .footer-second div {
   float: left;
   width: 16.66%;
   overflow: hidden;
-  border: 1px solid purple;
 }
 
 .footer-second h4 {
@@ -769,9 +766,90 @@ footer {
   text-decoration: none;
 }
 
+.footer-second a:hover {
+  text-decoration: underline;
+}
 
+.divider {
+  border-bottom: 0.5px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.subscribe-one {
+  margin-bottom: 20px;
+}
+
+.subscribe-one a {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.subscribe-two a {
+  font-size: 11px;
+}
+
+.vertical {
+  border-left: 1px solid lightgray;
+}
+
+.vertical h4,
+.vertical ul {
+  padding-left: 15px;
+}
 
 .footer-third {
   clear: left;
-  border: 1px solid blue;
+  border-top: 1px solid lightgray;
+  overflow: auto;
+  padding: 15px 30px;
+  margin-bottom: 75px;
+}
+
+.footer-third ul {
+  width: auto;
+  float: right;
+}
+
+.footer-third a,
+.footer-third li {
+  float: left;
+}
+
+.footer-third li {
+  padding-right: 15px;
+}
+
+.footer-third a {
+  font-size: 11px;
+  color: grey;
+  text-decoration: none;
+}
+
+.footer-fixed {
+  width: 100%;
+  clear: left;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  background-color: white;
+  border-top: 1px solid black;
+  padding: 20px 0;
+}
+
+.footer-fixed span {
+  float: left;
+}
+
+.footer-fixed span:first-child {
+  width: 90%;
+  font-size: 16px;
+}
+
+.footer-fixed span:nth-of-type(2),
+.footer-fixed span:last-child {
+  width: 5%;
+  font-weight: bold;
+  font-size: 12px;
 }
