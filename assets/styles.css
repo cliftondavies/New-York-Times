@@ -135,7 +135,6 @@ table {
 
 /*------------Top Bar--------------*/
 .page-top {
-  /* border: 1px solid red; */
   position: fixed;
   top: 0;
   left: 0;
@@ -149,7 +148,6 @@ table {
 .page-top > * {
   width: 33.33333%;
   float: left;
-  /* border: 1px solid green; */
 }
 
 .page-top div,
@@ -226,7 +224,7 @@ article {
   margin-top: 50px;
 }
 
-/*------Advert-------*/
+/*-----------------Advert----------------*/
 .advert {
   height: 300px;
   text-align: center;
@@ -251,6 +249,18 @@ h1 {
   line-height: 1.5;
 }
 
+/*-------Captions--------*/
+.caption {
+  width: 85%;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.caption span {
+  font-size: 14px;
+  color: grey;
+}
+
 /*--------First Image----------*/
 .first-image {
   width: 1050px;
@@ -260,16 +270,6 @@ h1 {
 .first-image img {
   width: 100%;
   margin-bottom: 10px;
-}
-
-.first-image figcaption {
-  width: 85%;
-  line-height: 1.4;
-}
-
-.first-image span {
-  font-size: 14px;
-  color: grey;
 }
 
 /*--------Main Content----------*/
@@ -294,7 +294,6 @@ h1 {
 
 .date-social {
   margin: 35px 0;
-  /* border: 1px solid red; */
   overflow: auto;
   padding: 8px;
 }
@@ -302,17 +301,14 @@ h1 {
 .date-social time {
   float: left;
   font-size: 12px;
-  /* border: 1px solid red; */
 }
 
 .date-social div {
   float: right;
-  /* border: 1px solid green; */
   width: 40%;
 }
 
 .date-social ul {
-  /* border: 5px solid blue; */
   width: 66.66%;
 }
 
@@ -356,9 +352,7 @@ h1 {
 /*-----First Aside-------*/
 .first-aside {
   float: right;
-  /* border: 1px solid red; */
   width: 255px;
-  /* height: 450px; */
   margin-top: 350px;
   margin-right: 75px;
 }
@@ -471,12 +465,10 @@ h1 {
 .infographic {
   width: 950px;
   margin: 0 auto;
-  /* position: relative; */
-  /* border: 1px solid red; */
+
 }
 .infographic img {
   width: 100%;
-  /* border: 1px solid green; */
   position: relative;
   z-index: -1;
 }
@@ -498,7 +490,6 @@ h1 {
   height: 150px;
   position: relative;
   z-index: 5;
-  /* border: 1px solid red; */
 }
 
 .infographic div:first-of-type {
@@ -511,7 +502,6 @@ h1 {
 
 .infographic div p {
   float: left;
-  /* border: 1px solid blue; */
   width: 25%;
   font-size: 13px;
   line-height: 1.5;
@@ -527,7 +517,6 @@ h1 {
 .authors {
   margin-top: 65px;
   clear: left;
-  /* border: 1px solid yellow; */
   font-size: 13px;
 }
 
@@ -539,7 +528,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-/*--------Main---------*/
+/*---------Main Content--------*/
 .knocked {
   color: blue;
 }
@@ -553,14 +542,6 @@ h1 {
   width: 100%;
 }
 
-.main figcaption {
-  font-size: 18px;
-}
-
-.credit {
-  font-size: 15px;
-}
-
 .main + figure {
   width: 700px;
   margin: 15px auto;
@@ -569,11 +550,6 @@ h1 {
 .main + figure img {
   width: 100%;
   margin-bottom: 8px;
-}
-
-.main + figure figcaption {
-  font-size: 16px;
-  width: 95%;
 }
 
 .main .last-para {
@@ -591,6 +567,7 @@ h1 {
 .social {
   overflow: hidden;
 }
+
 .social button {
   float: left;
   width: 55%;
@@ -603,7 +580,6 @@ h1 {
 
 .social ul {
   float: right;
-  /* border: 1px solid red; */
   width: 30%;
   overflow: auto;
   padding: 10px 0;
@@ -626,10 +602,10 @@ h1 {
   background-color: white;
 }
 
-/* aside */
+/*----Main Aside----*/
 aside {
-  margin: 0 auto;
-  width: 1200px;
+  margin: 40px auto;
+  width: 1260px;
   overflow: auto;
 }
 
@@ -640,12 +616,11 @@ aside {
 
 .aside-right {
   width: 30%;
-  padding-left: 25px;
+  padding-left: 20px;
 }
 
 .aside-left {
   width: 70%;
-  /* border-top: 1px solid black; */
 }
 
 .aside-left h4,
@@ -654,34 +629,31 @@ aside {
   padding: 20px 0;
   font-weight: bold;
   border-top: 1px solid black;
+  width: 98.3%;
+  margin-top: 20px;
 }
 
 .aside-heading {
   color: black;
   text-decoration: none;
 }
+
 .aside-heading:hover {
   text-decoration: underline;
 }
+
 .more,
 .editors-pick {
-  /* border: 1px solid red; */
   overflow: auto;
-  /* border-bottom: 1px solid black; */
 }
+
 .more div,
 .editors-pick div {
   float: left;
   width: 33.33%;
-  /* border: 1px solid red; */
-  min-height: 300px;
-  /* padding-right: 15px; */
-  padding-bottom: 15px;
-}
-
-.middle {
-  padding-left: 15px;
+  height: 310px;
   padding-right: 15px;
+  padding-bottom: 40px;
 }
 
 .more img,
@@ -713,6 +685,7 @@ aside {
 .editors-pick time {
   color: lightgrey;
 }
+
 .aside-left h4:last-of-type {
   clear: both;
 }
@@ -733,6 +706,72 @@ aside {
   color: lightgrey;
 }
 
+/*-----Footer------*/
 footer {
   clear: both;
+  border: 1px solid red;
+}
+
+.footer {
+  width: 1260px;
+  margin: 0 auto;
+  border-top: 2px solid lightgray;
+}
+
+.footer-first {
+  border-top: 1px solid lightgray;
+  margin-top: 1.5px;
+  margin-bottom: 20px;
+  border: 1px solid yellow;
+  overflow: auto;
+}
+
+.footer-first img {
+  width: 16.5%;
+  float: left;
+  padding-top: 8px;
+}
+
+.footer-first a:last-child {
+  float: right;
+  text-decoration: none;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  border: 1px solid blue;
+  height: 45px;
+}
+
+.footer-second {
+  clear: both;
+  border: 1px solid green;
+}
+
+.footer-second div {
+  float: left;
+  width: 16.66%;
+  overflow: hidden;
+  border: 1px solid purple;
+}
+
+.footer-second h4 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.footer-second li {
+  margin-top: 15px;
+}
+
+.footer-second a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+
+
+.footer-third {
+  clear: left;
+  border: 1px solid blue;
 }
