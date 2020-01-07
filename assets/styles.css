@@ -88,7 +88,6 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
   vertical-align: baseline;
 }
 
@@ -367,18 +366,19 @@ h1 {
   width: 60%;
 }
 
-.ad p {
-  float: none;
-  font-size: 12px;
-  padding: 0;
-}
-
 .first-aside img {
   float: left;
   width: 40%;
   clear: left;
   padding-bottom: 5px;
   padding-right: 5px;
+}
+
+.first-aside .ad p {
+  float: none;
+  font-size: 12px;
+  padding: 0;
+  width: 100%;
 }
 
 .first-aside h5 {
@@ -834,6 +834,7 @@ footer {
   border: none;
   border-top: 1px solid black;
   padding: 20px 0;
+  z-index: 5;
 }
 
 .footer-fixed span {
