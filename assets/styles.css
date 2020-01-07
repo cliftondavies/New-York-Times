@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -106,35 +106,41 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: border-box;
 }
 
-/*------------Top Bar--------------*/
+/* ------------Top Bar-------------- */
 .page-top {
   position: fixed;
   top: 0;
@@ -220,12 +226,12 @@ table {
   background-color: blue;
 }
 
-/*-----Article------*/
+/* -----Article------ */
 article {
   margin-top: 50px;
 }
 
-/*-----------------Advert----------------*/
+/* -----------------Advert---------------- */
 .advert {
   height: 300px;
   text-align: center;
@@ -238,7 +244,7 @@ article {
   font-size: 10px;
 }
 
-/*------Article Heading-------*/
+/* ------Article Heading------- */
 h1 {
   width: 700px;
   margin: 0 auto;
@@ -250,7 +256,7 @@ h1 {
   line-height: 1.5;
 }
 
-/*-------Captions--------*/
+/* -------Captions-------- */
 .caption {
   width: 85%;
   line-height: 1.4;
@@ -262,7 +268,7 @@ h1 {
   color: grey;
 }
 
-/*--------First Image----------*/
+/* --------First Image---------- */
 .first-image {
   width: 1050px;
   margin: 0 auto;
@@ -273,7 +279,7 @@ h1 {
   margin-bottom: 10px;
 }
 
-/*--------Main Content----------*/
+/* --------Main Content---------- */
 .main {
   width: 600px;
   margin: 40px auto;
@@ -315,6 +321,8 @@ h1 {
 
 .date-social button {
   width: 16.66%;
+  border: none;
+  background-color: white;
 }
 
 .date-social ul,
@@ -339,27 +347,18 @@ h1 {
   background-color: white;
 }
 
-.date-social button {
-  border: none;
-  background-color: white;
-}
-
 .main p {
   margin-bottom: 15px;
   line-height: 1.5;
   font-size: 22px;
 }
 
-/*-----First Aside-------*/
+/* -----First Aside------- */
 .first-aside {
   float: right;
   width: 255px;
   margin-top: 350px;
   margin-right: 75px;
-}
-
-.first-aside img {
-  float: left;
 }
 
 .first-aside p,
@@ -370,9 +369,12 @@ h1 {
 
 .ad p {
   float: none;
+  font-size: 12px;
+  padding: 0;
 }
 
 .first-aside img {
+  float: left;
   width: 40%;
   clear: left;
   padding-bottom: 5px;
@@ -403,11 +405,6 @@ h1 {
   font-size: 10px;
 }
 
-.ad p {
-  font-size: 12px;
-  padding: 0;
-}
-
 .first-aside a {
   color: black;
   text-decoration: none;
@@ -422,7 +419,7 @@ h1 {
   padding: 10px;
 }
 
-/*------Main Content-------*/
+/* ------Main Content------- */
 .cosmic a {
   color: blue;
 }
@@ -462,12 +459,12 @@ h1 {
   margin-bottom: 15px;
 }
 
-/*----Infographic-------*/
+/* ----Infographic------- */
 .infographic {
   width: 950px;
   margin: 0 auto;
-
 }
+
 .infographic img {
   width: 100%;
   position: relative;
@@ -521,7 +518,7 @@ h1 {
   font-size: 13px;
 }
 
-.authors:before {
+.authors::before {
   content: "";
   width: 8%;
   border-top: 0.05px solid black;
@@ -529,7 +526,7 @@ h1 {
   margin-bottom: 25px;
 }
 
-/*---------Main Content--------*/
+/* ---------Main Content-------- */
 .knocked {
   color: blue;
 }
@@ -603,7 +600,7 @@ h1 {
   background-color: white;
 }
 
-/*-----Main Aside-----*/
+/* -----Main Aside----- */
 aside {
   margin: 40px auto;
   width: 1260px;
@@ -707,7 +704,7 @@ aside {
   color: lightgrey;
 }
 
-/*-----------------Footer-----------*/
+/* -----------------Footer----------- */
 footer {
   clear: both;
 }
