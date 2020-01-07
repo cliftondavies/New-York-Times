@@ -11,7 +11,7 @@ The project has been broken down into four major parts:
 - Main Aside
 - Footer
 
-The whole page has been layed out using `CSS Floats`.
+The whole page has been laid out using `CSS Floats`.
 
 ## Technologies Used
 
