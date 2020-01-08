@@ -1,57 +1,54 @@
 # Positioning-and-Floating-Elements
 
-> One paragraph statement about the project.
+> A clone of a [New York Times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0).
 
-![screenshot](./app_screenshot.png)
+![screenshot](assets/images/screenshot.png)
 
-Additional description about the project and its features.
+## Project Features
+The project has been broken down into four major parts:
+- The Top Bar
+- Main Content
+- Main Aside
+- Footer
 
-## Built With
+The whole page has been laid out using `CSS Floats`.
 
-- Major languages,
-- frameworks,
-- technologies used
+## Technologies Used
+
+- HTML
+- CSS
+- Git
+- GitHub
+- Visual Studio Code
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://raw.githack.com/cliftondavies/Positioning-and-Floating-Elements/new-york-times-clone/index.html)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
 
 ### Setup
 
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+- Clone into your local machine from terminal.
+- Open using text editor of your choice.
 
 
 ## Authors
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/cliftondavies)
+- Twitter: [@twitterhandle](https://twitter.com/cliftonaedavies)
+- Linkedin: [linkedin](https://www.linkedin.com/in/clifton-davies-mbcs/)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/MotivateJ)
+- Twitter: [@twitterhandle](https://twitter.com/JulieCh46062473)
+- Linkedin: [linkedin](www.linkedin.com/in/julia-wangui)
 
 ## 🤝 Contributing
 
@@ -65,9 +62,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- The Labradors
+- The Corgis
 
 ## 📝 License
 

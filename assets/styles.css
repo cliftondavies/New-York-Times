@@ -1,0 +1,854 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ------------Top Bar-------------- */
+.page-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  padding: 5px 15px;
+  z-index: 10;
+  border-bottom: 1px solid grey;
+}
+
+.page-top > * {
+  width: 33.33333%;
+  float: left;
+}
+
+.page-top div,
+.page-top > a {
+  padding: 10px 0;
+}
+
+.page-top > a {
+  text-align: center;
+  height: 40px;
+}
+
+.page-top img {
+  width: 48%;
+}
+
+.page-top button {
+  margin-right: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.page-top div button:hover {
+  background-color: lightgray;
+}
+
+.page-top div a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.page-top div a:hover {
+  text-decoration: underline;
+}
+
+.page-top div button,
+.page-top a {
+  cursor: pointer;
+}
+
+.page-top ul {
+  width: auto;
+  float: right;
+}
+
+.page-top li {
+  float: left;
+}
+
+.page-top li:first-child {
+  margin-right: 7px;
+}
+
+.page-top li a {
+  display: block;
+  background-color: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+  border-radius: 3px;
+  padding: 12px;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.page-top li:hover {
+  background-color: blue;
+}
+
+/* -----Article------ */
+article {
+  margin-top: 50px;
+}
+
+/* -----------------Advert---------------- */
+.advert {
+  height: 300px;
+  text-align: center;
+  padding: 10px;
+  background-color: lightgray;
+  border-bottom: 0.5px solid lightgray;
+}
+
+.advert h4 {
+  font-size: 10px;
+}
+
+/* ------Article Heading------- */
+h1 {
+  width: 700px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  font-size: 30px;
+  font-weight: bolder;
+  font-style: italic;
+  line-height: 1.5;
+}
+
+/* -------Captions-------- */
+.caption {
+  width: 85%;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.caption span {
+  font-size: 14px;
+  color: grey;
+}
+
+/* --------First Image---------- */
+.first-image {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.first-image img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* --------Main Content---------- */
+.main {
+  width: 600px;
+  margin: 40px auto;
+}
+
+.main h5 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.main h5 a {
+  color: black;
+  text-decoration-color: #ccc;
+}
+
+.main h5 a:hover {
+  text-decoration: none;
+}
+
+.date-social {
+  margin: 35px 0;
+  overflow: auto;
+  padding: 8px 0;
+}
+
+.main .date-social p {
+  float: left;
+  font-size: 12px;
+}
+
+.date-social div {
+  float: right;
+  width: 40%;
+}
+
+.date-social ul {
+  width: 66.66%;
+}
+
+.date-social button {
+  width: 16.66%;
+  border: none;
+  background-color: white;
+}
+
+.date-social ul,
+.date-social button,
+.date-social li {
+  float: left;
+}
+
+.date-social li {
+  width: 25%;
+}
+
+.date-social a {
+  color: black;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.date-social a:hover {
+  background-color: white;
+}
+
+.main p {
+  margin-bottom: 15px;
+  line-height: 1.5;
+  font-size: 22px;
+}
+
+/* -----First Aside------- */
+.first-aside {
+  float: right;
+  width: 255px;
+  margin-top: 350px;
+  margin-right: 75px;
+}
+
+.first-aside p,
+.ad {
+  float: right;
+  width: 60%;
+}
+
+.first-aside img {
+  float: left;
+  width: 40%;
+  clear: left;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+
+.first-aside .ad p {
+  float: none;
+  font-size: 12px;
+  padding: 0;
+  width: 100%;
+}
+
+.first-aside h5 {
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 15px;
+  border-bottom: 0.5px solid #ccc;
+  margin-bottom: 15px;
+}
+
+.first-aside div {
+  margin-bottom: 15px;
+  overflow: auto;
+}
+
+.first-aside p {
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 5px;
+}
+
+.ad h6 {
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.first-aside a {
+  color: black;
+  text-decoration: none;
+}
+
+.first-aside a:hover {
+  text-decoration: underline;
+}
+
+.first-aside div:last-child {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+/* ------Main Content------- */
+.cosmic a {
+  color: blue;
+}
+
+.main .account {
+  font-size: 15px;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+.account a {
+  color: blue;
+  text-decoration: none;
+}
+
+.line {
+  border: 0.5px solid grey;
+  width: 10%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.top {
+  margin-top: 25px;
+}
+
+.bottom {
+  margin-bottom: 25px;
+}
+
+.main h3 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+/* ----Infographic------- */
+.infographic {
+  width: 950px;
+  margin: 0 auto;
+}
+
+.infographic img {
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.infographic h4 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.infographic p {
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.infographic div:first-of-type,
+.infographic div:last-of-type {
+  float: left;
+  height: 150px;
+  position: relative;
+  z-index: 5;
+}
+
+.infographic div:first-of-type {
+  margin-top: -445px;
+}
+
+.infographic div:last-of-type {
+  margin-top: -160px;
+}
+
+.infographic div p {
+  float: left;
+  width: 25%;
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 5px;
+}
+
+.infographic span {
+  font-weight: bold;
+  padding-right: 10px;
+  font-size: 11px;
+}
+
+.authors {
+  margin-top: 65px;
+  clear: left;
+  font-size: 13px;
+}
+
+.authors::before {
+  content: "";
+  width: 8%;
+  border-top: 0.05px solid black;
+  display: block;
+  margin-bottom: 25px;
+}
+
+/* ---------Main Content-------- */
+.knocked {
+  color: blue;
+}
+
+.main figure:first-of-type {
+  margin: 35px 0;
+}
+
+.main iframe {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.main + figure {
+  width: 700px;
+  margin: 15px auto;
+}
+
+.main + figure img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.main .last-para {
+  font-size: 13px;
+}
+
+.last-para a {
+  color: black;
+}
+
+.last-para a:hover {
+  text-decoration: none;
+}
+
+.social {
+  overflow: hidden;
+}
+
+.social button {
+  float: left;
+  width: 55%;
+  padding: 10px 15px;
+  background-color: royalblue;
+  color: white;
+  border: 1px solid royalblue;
+  border-radius: 5px;
+}
+
+.social ul {
+  float: right;
+  width: 30%;
+  overflow: auto;
+  padding: 10px 0;
+}
+
+.social li {
+  float: left;
+  width: 25%;
+}
+
+.social a {
+  padding: 5px;
+  color: black;
+  background-color: lightgrey;
+  border-radius: 100%;
+  border: 1px solid lightgrey;
+}
+
+.social a:hover {
+  background-color: white;
+}
+
+/* -----Main Aside----- */
+aside {
+  margin: 40px auto;
+  width: 1260px;
+  overflow: auto;
+}
+
+.aside-left,
+.aside-right {
+  float: right;
+}
+
+.aside-right {
+  width: 30%;
+  padding-left: 20px;
+}
+
+.aside-left {
+  width: 70%;
+}
+
+.aside-left h4,
+.aside-right h4 {
+  font-size: 18px;
+  padding: 20px 0;
+  font-weight: bold;
+  border-top: 1px solid black;
+  width: 98.3%;
+  margin-top: 20px;
+}
+
+.aside-heading {
+  color: black;
+  text-decoration: none;
+}
+
+.aside-heading:hover {
+  text-decoration: underline;
+}
+
+.more,
+.editors-pick {
+  overflow: auto;
+}
+
+.more div,
+.editors-pick div {
+  float: left;
+  width: 33.33%;
+  height: 310px;
+  padding-right: 15px;
+  padding-bottom: 40px;
+}
+
+.more img,
+.editors-pick img {
+  width: 100%;
+}
+
+.more a,
+.editors-pick a {
+  text-decoration: none;
+  color: black;
+}
+
+.more figcaption,
+.editors-pick figcaption {
+  text-align: right;
+  font-size: 10px;
+  color: lightgrey;
+}
+
+.more p,
+.editors-pick p {
+  margin: 5px 0;
+  line-height: 1.3;
+  font-size: 18px;
+}
+
+.more span,
+.editors-pick span {
+  color: lightgrey;
+}
+
+.aside-left h4:last-of-type {
+  clear: both;
+}
+
+.aside-right li {
+  border-top: 1px solid lightgrey;
+  padding: 20px 0;
+}
+
+.aside-right a {
+  font-size: 20px;
+  line-height: 1.3;
+  color: black;
+  text-decoration: none;
+}
+
+.aside-right a:hover {
+  color: lightgrey;
+}
+
+/* -----------------Footer----------- */
+footer {
+  clear: both;
+}
+
+.footer {
+  width: 1260px;
+  margin: 0 auto;
+  border-top: 2px solid lightgray;
+}
+
+.footer-first {
+  border-top: 1px solid lightgray;
+  margin-top: 1.5px;
+  overflow: auto;
+}
+
+.footer-first img {
+  width: 16.5%;
+  float: left;
+  padding-top: 8px;
+}
+
+.footer-first a:last-child {
+  float: right;
+  text-decoration: none;
+  font-size: 11px;
+  display: flex;
+  align-items: flex-end;
+  height: 45px;
+}
+
+.footer-second {
+  clear: both;
+  padding: 20px 0;
+  overflow: auto;
+}
+
+.footer-second div {
+  float: left;
+  width: 16.66%;
+  overflow: hidden;
+}
+
+.footer-second h4 {
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.footer-second li {
+  margin-top: 15px;
+}
+
+.footer-second a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+}
+
+.footer-second a:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  border-bottom: 0.5px solid lightgray;
+  padding-bottom: 10px;
+}
+
+.subscribe-one {
+  margin-bottom: 20px;
+}
+
+.subscribe-one a {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.subscribe-two a {
+  font-size: 11px;
+}
+
+.vertical {
+  border-left: 1px solid lightgray;
+}
+
+.vertical h4,
+.vertical ul {
+  padding-left: 15px;
+}
+
+.footer-third {
+  clear: left;
+  border-top: 1px solid lightgray;
+  overflow: auto;
+  padding: 15px 30px;
+  margin-bottom: 75px;
+}
+
+.footer-third ul {
+  width: auto;
+  float: right;
+}
+
+.footer-third a,
+.footer-third li {
+  float: left;
+}
+
+.footer-third li {
+  padding-right: 15px;
+}
+
+.footer-third a {
+  font-size: 11px;
+  color: grey;
+  text-decoration: none;
+}
+
+.footer-fixed {
+  width: 100%;
+  clear: left;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 65px;
+  background-color: white;
+  border: none;
+  border-top: 1px solid black;
+  padding: 20px 0;
+  z-index: 5;
+}
+
+.footer-fixed span {
+  float: left;
+}
+
+.footer-fixed span:first-child {
+  width: 90%;
+  font-size: 16px;
+}
+
+.footer-fixed span:nth-of-type(2),
+.footer-fixed span:last-child {
+  width: 5%;
+  font-weight: bold;
+  font-size: 12px;
+}
