@@ -23,7 +23,7 @@ The whole page has been laid out using `CSS Floats`.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/cliftondavies/Positioning-and-Floating-Elements/new-york-times-clone/index.html)
+[Live Demo Link](https://cliftondavies.github.io/New-York-Times/)
 
 
 ## Getting Started
