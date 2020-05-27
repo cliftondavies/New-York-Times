@@ -38,13 +38,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Authors
 
-👤 **Author1**
+👤 **Clifton Davies**
 
 - Github: [@githubhandle](https://github.com/cliftondavies)
 - Twitter: [@twitterhandle](https://twitter.com/cliftonaedavies)
 - Linkedin: [linkedin](https://www.linkedin.com/in/clifton-davies-mbcs/)
 
-👤 **Author2**
+👤 **Julia Chris**
 
 - Github: [@githubhandle](https://github.com/MotivateJ)
 - Twitter: [@twitterhandle](https://twitter.com/JulieCh46062473)
