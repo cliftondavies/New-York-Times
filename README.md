@@ -4,14 +4,8 @@
 
 ![screenshot](assets/images/screenshot.png)
 
-## Project Features
-The project has been broken down into four major parts:
-- The Top Bar
-- Main Content
-- Main Aside
-- Footer
-
-The whole page has been laid out using `CSS Floats`.
+## Implementation Details
+[See wiki pages](https://github.com/cliftondavies/New-York-Times/wiki)
 
 ## Technologies Used
 
